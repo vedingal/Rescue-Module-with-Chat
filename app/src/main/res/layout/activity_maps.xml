@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        tools:context="com.venndingal.mapsactivity.MapsActivity" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et_FullName"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp"
+        android:hint="Full Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/et_pickUp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Pick Up"
+        android:gravity="top"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/et_dropOff"
+        android:layout_gravity="center_horizontal"
+        android:hint="Drop Off"
+        android:gravity="top"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/et_notes"
+        android:hint="Notes"
+        android:gravity="top"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:layout_margin="4dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/btn_submit"
+        android:background="@color/colorAccent"
+        android:textColor="#fff" />
+
+</LinearLayout>

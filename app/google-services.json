@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "265209723986",
+    "firebase_url": "https://rescue-with-chat-module.firebaseio.com",
+    "project_id": "rescue-with-chat-module",
+    "storage_bucket": "rescue-with-chat-module.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265209723986:android:33826de119334b6a",
+        "android_client_info": {
+          "package_name": "com.venndingal.mapsactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265209723986-nsm8i5fu9g5ni6stvhvq2c44ou3k2bpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG9u8QsNZjtNlEqFyIClNWl_WCanv09-A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
